@@ -1,0 +1,42 @@
+.navbar {
+  background-color: transparent;
+  margin: 0px 50px;
+  @media (max-width: $tablet-width) {
+    margin: 0px;
+    button {
+      border: 0px solid transparent;
+    }
+  }
+}
+.nav-link {
+  font-size: 15px;
+  margin: 7px;
+  text-transform: uppercase;
+  color: $white-color;
+  &:hover {
+    color: $primary-color;
+  }
+  @media (max-width: 991px) {
+
+    &:hover {
+      color: $white-color;
+    }
+  }
+}
+.active {
+  font-weight: 700;
+}
+.nav-item {
+  padding-right: 30px;
+  @media (max-width: 991px) {
+    padding-right: 0px;
+  }
+}
+#navbarNav.offcanvas {
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+.btn-close-white {
+  text-align: right;
+}

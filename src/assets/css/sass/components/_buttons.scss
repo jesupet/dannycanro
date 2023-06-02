@@ -1,0 +1,18 @@
+.btn-purple {
+  background-color: $primary-color;
+  color: $white-color;
+  font-size: 20px;
+  padding: 8px 20px 8px 20px;
+}
+.btn-purple:hover {
+  text-decoration: none;
+  color: $primary-color;
+  background-color: transparent;
+  border-color: $primary-color;
+}
+.btn-nav {
+  font-size: 15px;
+  @media (max-width: 991px) {
+    margin-top: 15px;
+  }
+}

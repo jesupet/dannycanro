@@ -1,0 +1,19 @@
+
+#aboutme {
+  padding: 100px 12px;
+}
+.frame-pic {
+  padding: 50px;
+  img {
+    width: 100%;
+  }
+}
+.bio-box {
+  padding: 50px 20px;
+  p {
+    text-align: justify;
+    @media (max-width: 780px) {
+      font-size: 20px;
+    }
+  }
+}
